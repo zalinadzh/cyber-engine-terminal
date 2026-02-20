@@ -1,0 +1,43 @@
+* {margin: 0;
+padding: 0;}
+
+
+body {
+    background-color: black;
+    color: #00ff41;
+    margin: 0;
+    font-family: monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem solid #00ff41;
+    padding: 1%;
+    
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    color: #00ff41;
+    border: 0.2rem solid #00ff41;
+    padding: 0.5rem 1.5rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    
+}
